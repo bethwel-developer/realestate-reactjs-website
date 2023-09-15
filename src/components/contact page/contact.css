@@ -1,0 +1,78 @@
+.c-container{
+    justify-content: space-between;
+    }
+    
+    .c-container>div{
+      flex:1;
+    }
+    
+    
+    .c-right{
+      width: 100%;
+    }
+    
+    .c-left{
+      gap:0.5rem;
+    }
+    
+    
+    
+    .contactMode{
+      margin-top: 2rem;
+      gap: 1rem;
+      
+    }
+    
+    .box{
+      gap: 1.5rem;
+    }
+    
+    
+    
+    .mode{
+      width: 16rem;
+      padding: 1rem;
+      border: 1px solid antiquewhite;
+      border-radius: 5px;
+      gap: 1rem;
+      transition: all 400ms ease-in;
+    
+    }
+    
+    .mode.button{
+      width: 100%;
+      font-size: 0.9rem;
+      font-weight: 400;
+      background-color: var(--lightBlue);
+      color: var(--blue);
+    }
+    
+    
+    .mode >:nth-child(1){
+      width: 100%;
+      gap:1.6rem;
+    }
+    
+    .mode.detail.primaryText{
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    
+    .mode:hover{
+      background-color: antiquewhite;
+    }
+    
+    .callNowButton{
+      width: 12rem;
+      
+    
+      
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+      .moded{
+          display: none;
+    
+      }
+      }

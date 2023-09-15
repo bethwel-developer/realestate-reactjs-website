@@ -1,0 +1,64 @@
+
+.r-container{
+    overflow: hidden;
+    
+  }
+  
+  .r-head{
+    margin-bottom: 3rem;
+  }
+  
+  .r-card{
+    gap: 0.6rem;
+    padding: 2.5rem;
+    border-radius: 20px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 250ms ease-in-out;
+   
+   
+    
+  }
+  .r-card:hover{
+    transform: scale(1.02);
+    cursor: pointer; 
+     background-color: antiquewhite;
+    
+    
+  }
+  
+  
+  .r-card>img{
+    width: 100%;
+    max-width: 15rem;
+  }
+  
+  .r-card>:nth-child(2){
+   
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .r-card>:nth-child(3){
+   
+    font-size: 1.5rem;
+  }
+  .r-card>:nth-child(4){
+   
+    font-size: 0.7rem;
+    width: 13rem;
+  
+  }
+  
+  .r-buttons>button{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    width: 5rem;
+  }
+  
+  .r-buttons>button:hover{
+    background-color: blanchedalmond;
+    border-radius: 0.5rem;
+  }
+  
+  
+  
