@@ -12,10 +12,6 @@ function Footer  () {
         <span className="span secondaryText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum qui reprehenderit</span>
       </div>
 
-
-
-
-
     <div className="div flexColStart f-right">
       <span className="primaryText">information</span>
       <span className="secondaryText">nairobiCBD, Luthuli street</span>
