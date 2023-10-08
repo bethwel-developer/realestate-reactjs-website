@@ -20,8 +20,6 @@ function App() {
     <Contact/>
     <GetStarted/>
     <Footer/>
-
-    
    </div> 
   );
 }
