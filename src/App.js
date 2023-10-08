@@ -7,8 +7,6 @@ import Footer from "./components/footer/footer";
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 
-
-
 function App() {
   return (
    <div className="App">
