@@ -1,3 +1,5 @@
+
+
 import Logo from "./components/logos/logo";
 import Residences from "./components/residences/residences";
 import Value from "./components/value/value";
@@ -8,8 +10,10 @@ import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 
 function App() {
+  
   return (
    <div className="App">
+    
     <Header/>
     <Hero/>
     <Logo/>
@@ -18,6 +22,7 @@ function App() {
     <Contact/>
     <GetStarted/>
     <Footer/>
+    
    </div> 
   );
 }
